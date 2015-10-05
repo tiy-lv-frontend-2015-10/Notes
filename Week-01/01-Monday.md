@@ -110,6 +110,7 @@ div > a // selector
 * [Block Level Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)
 * [Inline Level Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente)
 * [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+* [CSS Specificity](https://stuffandnonsense.co.uk/archives/images/specificitywars-05v2.jpg)
 
 ### Images
 
