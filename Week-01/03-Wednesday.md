@@ -49,6 +49,8 @@ There is one other type of argument and that is the named argument. This is a co
     - navigate in your terminal to the project directory `cd ~/TIY-Projects/myProject` (replace myProject with whatever the name of your project is)
     - create a new branch called gh-pages: `git checkout -b gh-pages`
     - push the gh-pages branch to github: `git push origin gh-pages`
+    - navigate to view your work: `http://{your github username}.github.io/{your project repository name}`
+
 
 -----
 
