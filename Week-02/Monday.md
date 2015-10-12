@@ -165,6 +165,57 @@ var c = 1 + 2;
 See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
 
 
+## Type Coercion
+
+When comparing values in Javascript using the double equals `==`, it will implictly convert the types and then compare the values only. So the values `Number(5)` and `String("5")` would be consider equal.
+
+When comparing values in Javascript using the triple equals `===` it will not implicitly convert the types, if the values are of differnt types they will not be considered equal.
+
+Implicit type coercion can lead to bugs so always use the triple equals `===` when comparing values.
+
+
+## Functions
+
+functions are mini programs inside the the main program that can be invoked at any time.
+
+The syntax to declare a function is:
+
+```javascript
+function doSomething() {
+  // do stuff...
+}
+```
+
+The syntax to invoke a function is:
+
+```javascript
+doSomething();
+```
+
+when invoking these sub programs we call functions you can pass data in and get data back out.
+
+To pass data in, you use parameters:
+
+```javascript
+function doSomething(parameter1, parameter2) {
+  // do stuff...
+}
+
+doSomething("foo", 5);
+```
+
+To get data back, the function must `return` a value:
+
+```javascript
+function doSomething() {
+  // do stuff...
+  return 5;
+}
+
+var response = doSomthing();
+```
+
+
 ## Resources
 
 * [The Ultimate Guide to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
