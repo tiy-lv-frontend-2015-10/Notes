@@ -23,7 +23,7 @@ function usingItNow (function(){
   console.log("got data: " + data);
 })
 
-usingItNow(myCallback);
+usingItNow();
 ```
 
 Noticed how the function was passed directly as the argument. Also notice how the function was not given a name. This is called an _anonymous_ function.
