@@ -107,7 +107,7 @@ If you want to ignore a specific file, create a `.gitignore` file and add any fi
 
         ```sh
         # Make sure to copy the correct SSH url
-        $ git add remote origin git@github.com:tiy-atlanta-js/Notes.git
+        $ git add remote origin git@github.com:tiy-lv-frontend-2015-10/Notes.git
         ```
 
 ## Creating a NEW Project
@@ -117,7 +117,7 @@ If you want to ignore a specific file, create a `.gitignore` file and add any fi
 
         ```sh
         # Make sure to copy the correct SSH url
-        $ git clone git@github.com:tiy-atlanta-js/Notes.git
+        $ git clone git@github.com:tiy-lv-frontend-2015-10/Notes.git
         ```
 
 3. Navigate into that folder
